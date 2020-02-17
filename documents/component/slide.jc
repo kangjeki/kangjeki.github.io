@@ -4,21 +4,21 @@
 		<div class="slide-pack">
 			<ul class="slide-image">
 				<li>
-					<img src="jc_include/img/img_slide/2.jpg" class="active">
+					<img src="img/img_slide/2.jpg" class="active">
 					<div class="slide-note">
 						<h3>Ini Adalah Satu</h3>
 						<button class="btn btn-info">Hallo</button>
 					</div>
 				</li>
 				<li>
-					<img src="jc_include/img/img_slide/3.jpg">
+					<img src="img/img_slide/3.jpg">
 					<div class="slide-note">
 						<h3>Ini Adalah Dua</h3>
 						<button class="btn btn-info">Hallo</button>
 					</div>
 				</li>
 				<li>
-					<img src="jc_include/img/img_slide/4.jpg">
+					<img src="img/img_slide/4.jpg">
 					<div class="slide-note">
 						<h3>Ini Adalah Tiga</h3>
 						<button class="btn btn-info">Hallo</button>
@@ -37,21 +37,21 @@
 <div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"slide-pack"</span><span class="cb">&gt;</span>
 <br>&nbsp;<span class="cb"><span class="cb">&lt;</span>ul</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"slide-image"</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
-<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"jc_include/img/img_slide/2.jpg"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"active"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"img/img_slide/2.jpg"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"active"</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"slide-note"</span></span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>h3<span class="cb">&gt;</span>Ini Adalah Satu<span class="cb"><span class="cb">&lt;</span>/h3</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"btn btn-info"</span></span><span class="cb">&gt;</span>Hallo<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
-<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"jc_include/img/img_slide/3.jpg"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"img/img_slide/3.jpg"<span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"slide-note"</span></span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>h3<span class="cb">&gt;</span>Ini Adalah Dua<span class="cb"><span class="cb">&lt;</span>/h3</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"btn btn-info"</span></span><span class="cb">&gt;</span>Hallo<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
-<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"jc_include/img/img_slide/4.jpg"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"img/img_slide/4.jpg"<span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"slide-note"</span></span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>h3<span class="cb">&gt;</span>Ini Adalah Tiga<span class="cb"><span class="cb">&lt;</span>/h3</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"btn btn-info"</span></span><span class="cb">&gt;</span>Hallo<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
@@ -67,16 +67,16 @@
 		<div class="slide-pack" interval="3000">
 			<ul class="slide-image">
 				<li>
-					<img src="jc_include/img/img_slide/a.jpg" class="active">
+					<img src="img/img_slide/a.jpg" class="active">
 				</li>
 				<li>
-					<img src="jc_include/img/img_slide/b.jpg">
+					<img src="img/img_slide/b.jpg">
 				</li>
 				<li>
-					<img src="jc_include/img/img_slide/c.jpg">
+					<img src="img/img_slide/c.jpg">
 				</li>
 				<li>
-					<img src="jc_include/img/img_slide/d.jpg">
+					<img src="img/img_slide/d.jpg">
 				</li>
 			</ul>
 		</div>	
@@ -91,16 +91,16 @@
 <div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"slide-pack"</span><span class="cl"> interval=</span><span class="co">"3000"</span><span class="cb">&gt;</span>
 <br>&nbsp;<span class="cb"><span class="cb">&lt;</span>ul</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"slide-image"</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
-<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"jc_include/img/img_slide/a.jpg"<span class="cl"><span class="cl"> class=</span></span><span class="co">"active"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"img/img_slide/a.jpg"<span class="cl"><span class="cl"> class=</span></span><span class="co">"active"</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
-<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"jc_include/img/img_slide/b.jpg"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"img/img_slide/b.jpg"<span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
-<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"jc_include/img/img_slide/c.jpg"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"img/img_slide/c.jpg"<span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
-<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"jc_include/img/img_slide/d.jpg"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"><span class="cl"> src=</span></span>"img/img_slide/d.jpg"<span class="cb">&gt;</span>
 <br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
 <br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/ul</span><span class="cb">&gt;</span>
 <br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
