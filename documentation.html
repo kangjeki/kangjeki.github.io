@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JC Booster</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="image/png" href="img/img_atb/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/jc_booster.css">
+	<link rel="stylesheet" type="text/css" href="css/jc_booster.animate.css">
+	<link rel="stylesheet" type="text/css" href="css/jc_booster.awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/jc_booster.responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/jc_booster.rooter.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jc_booster.js"></script>
+</head>
+<body>
+
+<div class="app">
+	<div class="header" mode="fixed">
+		<nav class="row navbar navbar-dark">
+			<div class="col-2 navbar-brand">
+				<div class="navbar-itme navbar-toggle">
+					<button class="btn btn-sidebar" expand-target="#sidebar-left">
+						<i class="fas fa-bars"></i>	
+					</button>
+				</div>
+				<div class="navbar-item">
+					<div class="brand">
+						<img src="img/img_atb/logo.png">	
+					</div>
+				</div>
+				<div class="navbar-itme navbar-toggle">
+					<button class="btn btn-navbar" expand-target=".header">
+						<i class="fas fa-ellipsis-v"></i>
+					</button>
+				</div>
+			</div>
+			<div class="col-6 navbar-left">
+				<div class="navbar-item">
+					<a href="index.html" class="navbar-link">Home</a>
+				</div>
+				<div class="navbar-item">
+					<a href="documentation.html" class="navbar-link">Documentation</a>
+				</div>
+				<div class="navbar-item hover-down">
+					<a class="navbar-link">Sources</a>
+					<ul class="hover-menu">
+						<li>
+							<a href="css-library" class="hover-link">CSS Library</a>
+						</li>
+						<li>
+							<a href="javascript-library" class="hover-link">Javascript Library</a>
+						</li>
+						<li>
+							<a href="php-library" class="hover-link">PHP Library</a>
+						</li>
+					</ul>
+				</div>
+				<div class="navbar-item">
+					<a href="applications" class="navbar-link">Applications</a>
+				</div>
+				<div class="navbar-item">
+					<a href="builder" class="navbar-link">Builder</a>
+				</div>
+			</div>
+			<div class="col-4 navbar-right">
+				<div class="navbar-item navbar-item-group">
+					<a class="navbar-link" onclick="backPage()"><i class="fas fa-long-arrow-alt-left" gray></i></a>
+					<a class="navbar-link" onclick="forwardPage()"><i class="fas fa-long-arrow-alt-right" gray></i></a>
+				
+					<a class="navbar-link" onclick="refreshPage()"><i class="fas fa-sync-alt" gray></i></a>
+					
+					<a class="navbar-link" id="btn-full-sc"><i class="fas fa-expand" gray></i></a>
+					<a class="navbar-link hide-btn-full-sc" id="btn-exit-full-sc"><i class="fas fa-compress"></i></a>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row content-wrapper">
+			<div class="col-2">
+				<div class="sidebar" id="sidebar-left" mode="fixed">
+					<div class="nav">
+						<a class="nav-link spa-model" active-page="documentation" load="" inner-id="#content" mode="sync"><i class="fas fa-rss-square"></i> Introduction</a>
+						<a class="nav-link spa-model" active-page="documentation" load="documents/content/layout.jc" inner-id="#content" mode="async"><i class="fas fa-rss-square"></i> Layout</a>
+						<a class="nav-link spa-model expand" expand-target="#data-content"><i class="fas fa-rss-square"></i> Content</a>
+						<div class="expand-group" id="data-content">
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/comment-form.jc" inner-id="#content" mode="async">Comment Form</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/form.jc" inner-id="#content" mode="async">Form</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/grid-columns.jc" inner-id="#content" mode="async">Grid Columns</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/hirarki-struktur.jc" inner-id="#content" mode="async">Hirarki Struktur</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/spa-model.jc" inner-id="#content" mode="async">SPA Model</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/sidebar.jc" inner-id="#content" mode="async">Sidebar</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/table.jc" inner-id="#content" mode="async">Table</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/content/text-editor.jc" inner-id="#content" mode="async">Text Editor</a>
+						</div>
+						<a class="nav-link spa-model expand" expand-target="#data-component"><i class="fas fa-rss-square"></i> Component</a>
+						<div class="expand-group" id="data-component">
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/alert.jc" inner-id="#content" mode="async">Alert</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/badge.jc" inner-id="#content" mode="async">Badge</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/breadcrumb.jc" inner-id="#content" mode="async">Breadcrumb</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/button.jc" inner-id="#content" mode="async">Button</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/box-content.jc" inner-id="#content" mode="async">Box Content</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/box-dialog.jc" inner-id="#content" mode="async">Box Dialog</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/card.jc" inner-id="#content" mode="async">Card</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/dropdown.jc" inner-id="#content" mode="async">Dropdown</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/expander.jc" inner-id="#content" mode="async">Expander</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/input.jc" inner-id="#content" mode="async">Input</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/input-toggle.jc" inner-id="#content" mode="async">Input Toggle</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/loader.jc" inner-id="#content" mode="async">Loader</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/modal.jc" inner-id="#content" mode="async">Modal</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/note.jc" inner-id="#content" mode="async">Note</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/navigasi.jc" inner-id="#content" mode="async">Navigasi</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/pagination.jc" inner-id="#content" mode="async">Pagination</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/progresbar.jc" inner-id="#content" mode="async">Progresbar</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/scroll-switch.jc" inner-id="#content" mode="async">scroll switch</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/slide.jc" inner-id="#content" mode="async">slide</a>
+							<a class="nav-link spa-model" active-page="documentation" load="documents/component/tooltips.jc" inner-id="#content" mode="async">Tooltips</a>
+						</div>
+						<a class="nav-link spa-model" active-page="documentation" load="documents/content/color-reference.jc" inner-id="#content" mode="async"><i class="fas fa-rss-square"></i> Color Reference</a>
+						<a class="nav-link" href="jc_include/icon/index.php" target="_blank"><i class="fas fa-rss-square"></i> Font Icon Reference</a>
+					</div>	
+				</div>
+			</div>
+			<div class="col-8">
+				<div id="content">
+					
+				</div>
+			</div>
+			<div class="col-2">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jc_booster.function.js"></script>
+<script type="text/javascript" src="js/jc_booster.proto.js"></script>
+</script>
+</body>
+</html>

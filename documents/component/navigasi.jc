@@ -1,0 +1,165 @@
+<h2>Navigasi</h2>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<nav class="navbar">
+			<div class="navbar-left">
+				<div class="navbar-item">
+					<div class="navbar-brand">
+						<h1>JC Boster</h1>
+					</div>
+				</div>
+				<div class="navbar-item">
+					<a class="navbar-link">Home</a>
+				</div>
+			</div>
+			<div class="navbar-right">
+				<div class="navbar-item">
+					<a class="navbar-link">Menu</a>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>nav</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"navbar"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"navbar-left"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"navbar-item"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"navbar-brand"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>h1<span class="cb">&gt;</span>JC Boster<span class="cb"><span class="cb">&lt;</span>/h1</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"navbar-item"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"navbar-link"</span><span class="cb">&gt;</span>Home<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"navbar-right"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co"><span class="co">"navbar-item"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"navbar-link"</span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/nav</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<nav class="navbar navbar-dark">
+			<div class="navbar-left">
+				<div class="navbar-item">
+					<div class="navbar-brand">
+						<h1>JC Boster</h1>
+					</div>
+				</div>
+				<div class="navbar-item">
+					<a class="navbar-link">Home</a>
+				</div>
+				<div class="navbar-item">
+					<div class="dropdown">
+						<a class="navbar-link dropdown-toggle">Dropdown</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Sub Menu 1</a>
+							<a href="#" class="dropdown-item">Sub Menu 2</a>
+							<a href="#" class="dropdown-item">Sub Menu 3</a>
+						</div>
+					</div>
+				</div>
+				<div class="navbar-item">
+					<a class="navbar-link">Menu</a>
+				</div>
+				<div class="navbar-item hover-down">
+					<a class="navbar-link">Drophover</a>
+					<ul class="hover-menu">
+						<li>
+							<a class="hover-link">Sub Menu 1</a>
+						</li>
+						<li>
+							<a class="hover-link">Sub Menu 2</a>
+						</li>
+						<li>
+							<a class="hover-link">Sub Menu 3</a>
+						</li>
+						<li>
+							<a class="hover-link">Sub Menu 4</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			<div class="navbar-right">
+				<div class="navbar-item">
+					<a class="navbar-link">Menu</a>
+				</div>
+				<div class="navbar-item">
+					<a class="navbar-link">Menu</a>
+				</div>
+				<div class="navbar-item">
+					<div class="input-group">
+						<input type="text" class="input-control navbar-input" placeholder="Cari..">
+						<div class="input-append">
+							<button class="btn btn-info navbar-search">Cari</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>nav</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar navbar-dark"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar-left"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar-brand"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>h1<span class="cb">&gt;</span>JC Boster<span class="cb"><span class="cb">&lt;</span>/h1</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Home<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"dropdown"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar-link dropdown-toggle"</span><span class="cb">&gt;</span>Dropdown<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"dropdown-menu"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>Sub Menu 1<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>Sub Menu 2<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>Sub Menu 3<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar-item hover-down"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Drophover<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>ul</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"hover-menu"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Sub Menu 1<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Sub Menu 2<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Sub Menu 3<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Sub Menu 4<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/ul</span><span class="cb">&gt;</span>&nbsp;
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar-right"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"navbar-link"</span></span></span></span></span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"input-control navbar-input"</span><span class="cl"> placeholder=</span><span class="co">"Cari.."</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"input-append"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="co">"btn btn-info navbar-search"</span><span class="cb">&gt;</span>Cari<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/nav</span><span class="cb">&gt;</span></code></div>

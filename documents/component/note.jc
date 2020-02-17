@@ -1,0 +1,78 @@
+<h2>Note | Catatan</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="note">
+			Standard note.. <br>
+			Hallo semua apakabar dan semoga baik dan sehat
+		</div>
+		<div class="note note-primary">
+			Primary note.. <br>
+			Dimana Perginya teletubies ya..
+		</div>
+		<div class="note note-secondary">
+			Secondary note.. <br>
+			Selamat berjuang dan jangan lupa baca bismillah
+		</div>
+		<div class="note note-info">
+			Info note.. <br>
+			Selamat Bekerja dan jangan lupa sholat
+		</div>
+		<div class="note note-success">
+			Success note.. <br>
+			Ingat Tuhanmu sebelum ingat dompetmu
+		</div>
+		<div class="note note-danger">
+			Danger note.. <br>
+			Hadapi dengan Lapang dada
+		</div>
+		<div class="note note-warning">
+			Warning note.. <br>
+			Ingat! Semua sudah ada ketentuannya
+		</div>
+		<div class="note note-dark">
+			Dark note.. <br>
+			Jangan Mendahului kuasa tuhan
+		</div>
+		<div class="note note-light">
+			Light note.. <br>
+			Semua tinggal cerita
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note"</span><span class="cb">&gt;</span>
+<br>&nbsp;Standard note..
+<br>&nbsp;Hallo semua apakabar dan semoga baik dan sehat
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-primary"</span><span class="cb">&gt;</span>
+<br>&nbsp;Primary note..
+<br>&nbsp;Dimana Perginya teletubies ya..
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-secondary"</span><span class="cb">&gt;</span>
+<br>&nbsp;Secondary note..
+<br>&nbsp;Selamat berjuang dan jangan lupa baca bismillah
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-info"</span><span class="cb">&gt;</span>
+<br>&nbsp;Info note..
+<br>&nbsp;Selamat Bekerja dan jangan lupa sholat
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-success"</span><span class="cb">&gt;</span>
+<br>&nbsp;Success note..
+<br>&nbsp;Ingat Tuhanmu sebelum ingat dompetmu
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-danger"</span><span class="cb">&gt;</span>
+<br>&nbsp;Danger note..
+<br>&nbsp;Hadapi dengan Lapang dada
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;Warning note..
+<br>&nbsp;Ingat! Semua sudah ada ketentuannya
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-dark"</span><span class="cb">&gt;</span>
+<br>&nbsp;Dark note..
+<br>&nbsp;Jangan Mendahului kuasa tuhan
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-light"</span><span class="cb">&gt;</span>
+<br>&nbsp;Light note..
+<br>&nbsp;Semua tinggal cerita
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>

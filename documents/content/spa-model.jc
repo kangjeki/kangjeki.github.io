@@ -1,0 +1,18 @@
+<h2>SPA Model | Single Page Aplication Model</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="note note-warning">
+			<h4>Asyncronus</h4>
+			SPA Mode adalah metode load halaman lain pada halaman active, di gunakan untuk single page dan reload untuk optimasi javascript
+			<br><br>
+			<h4>Syncronus</h4>
+			Load url href
+		</div>
+	</div>
+</div>
+
+<a class="spa-model" active-page="galery" load="url.." inner-id="#content" mode="async">Asyncronus</a>
+<a class="spa-model" active-page="..." load="url.." inner-id="#content" mode="sync">Syncrounus</a>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"> class=</span><span class="co">"spa-model"</span><span class="cl"> active-page=</span><span class="co">"galery"</span><span class="cl"> load=</span><span class="co">"url.."</span><span class="cl"> inner-id=</span><span class="co">"#content"</span><span class="cl"> mode=</span><span class="co">"async"</span><span class="cb">&gt;</span>Asyncronus<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"> class=</span><span class="co">"spa-model"</span><span class="cl"> active-page=</span><span class="co">"..."</span><span class="cl"> load=</span><span class="co">"url.."</span><span class="cl"> inner-id=</span><span class="co">"#content"</span><span class="cl"> mode=</span><span class="co">"sync"</span><span class="cb">&gt;</span>Syncrounus<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span></code></div>

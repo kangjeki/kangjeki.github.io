@@ -1,0 +1,182 @@
+<h2 class="scroller-id" id="dropdown">Dropdown</h2>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="dropdown">
+			<button class="btn btn-success dropdown-toggle">Dropdown</button>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Makan</a>
+				<a href="#" class="dropdown-item">minum</a>
+				<a href="#" class="dropdown-item">kenyang karna makan</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"dropdown"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn btn-success dropdown-toggle"</span><span class="cb">&gt;</span>Dropdown<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"dropdown-menu"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>Makan<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>minum<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>kenyang karna makan<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<h2 class="scroller-id" id="dropdown-box-content">Dropdown Box Content</h2>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="dropdown">
+			<button class="btn btn-success dropdown-toggle">Dropdown</button>
+			<div class="dropdown-menu">
+				<div class="box-content" style="width: 200px;">
+					<div class="box-header">
+						Edit Sesuatu
+					</div>
+					<div class="box-body">
+						<button class="btn btn-primary">Lanjut</button>
+						<button class="btn btn-info dropdown-close">Batal</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"dropdown"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-success dropdown-toggle"</span><span class="cb">&gt;</span>Dropdown<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"dropdown-menu"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"box-content"</span><span class="cl"> style=</span>"width: 200px;"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"box-header"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Edit Sesuatu
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"box-body"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-primary"</span><span class="cb">&gt;</span>Lanjut<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-info dropdown-close"</span><span class="cb">&gt;</span>Batal<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<div class="note note-info">
+	# Penambahan attribute roll <br>
+	- Jika <b>roll='active'</b> ketika body di click maka dropdown akan hilang <br>
+	- jika attribute roll tidak ada / tidak active ketika body di click dropdown akan tetap stay
+</div>
+
+<h2 class="scroller-id" id="dropdown-active-roll">Dropdown active roll</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle">Dropdown</button>
+			<div class="dropdown-menu" roll="active">
+				<a href="#" class="dropdown-item">Makan</a>
+				<a href="#" class="dropdown-item">minum</a>
+				<a href="#" class="dropdown-item">kenyang karna makan</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"dropdown"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn btn-success dropdown-toggle"</span><span class="cb">&gt;</span>Dropdown<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"dropdown-menu"</span><span class="cl"> roll=</span><span class="co">"active"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>Makan<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>minum<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"dropdown-item"</span></span><span class="cb">&gt;</span>kenyang karna makan<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="dropdown">
+			<button class="btn btn-dark dropdown-toggle">Dropdown</button>
+			<div class="dropdown-menu" roll="true">
+				<a href="#" class="dropdown-item">Makan</a>
+				<a href="#" class="dropdown-item">minum</a>
+				<a href="#" class="dropdown-item">kenyang karna makan</a>
+			</div>
+		</div>
+		<div class="dropright">
+			<button class="btn btn-dark dropdown-toggle">Dropright</button>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Makan</a>
+				<a href="#" class="dropdown-item">minum</a>
+				<a href="#" class="dropdown-item">kenyang karna makan</a>
+			</div>
+		</div>
+		<div class="dropleft">
+			<button class="btn btn-dark dropdown-toggle">Dropleft</button>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Makan</a>
+				<a href="#" class="dropdown-item">minum</a>
+				<a href="#" class="dropdown-item">kenyang karna makan</a>
+			</div>
+		</div>
+		<div class="droptop">
+			<button class="btn btn-dark dropdown-toggle">Droptop</button>
+			<div class="dropdown-menu">
+				<a href="#" class="dropdown-item">Makan</a>
+				<a href="#" class="dropdown-item">minum</a>
+				<a href="#" class="dropdown-item">kenyang karna makan</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co">"dropdown"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"btn btn-dark dropdown-toggle"</span></span><span class="cb">&gt;</span>Dropdown<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"dropdown-menu"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;...
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co">"dropright"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"btn btn-dark dropdown-toggle"</span></span><span class="cb">&gt;</span>Dropright<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"dropdown-menu"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;...
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co">"dropleft"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"btn btn-dark dropdown-toggle"</span></span><span class="cb">&gt;</span>Dropleft<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"dropdown-menu"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;...
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co">"droptop"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"btn btn-dark dropdown-toggle"</span></span><span class="cb">&gt;</span>Droptop<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span><span class="co"><span class="co">"dropdown-menu"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;...
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<h2 class="scroller-id" id="dropdown-hover">Dropdown Hover</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="hover-down">
+			<a class="hover-item">Hover Down</a>
+			<ul class="hover-menu">
+				<li>
+					<a href="#" class="hover-link">Menu 1</a>
+					<a href="#" class="hover-link">Menu Apa Hari Ini</a>
+					<a href="#" class="hover-link">Menu 3</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"hover-down"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"hover-item"</span><span class="cb">&gt;</span>Hover Down<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>ul</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"hover-menu"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span>li<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"hover-link"</span></span><span class="cb">&gt;</span>Menu 1<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"hover-link"</span></span><span class="cb">&gt;</span>Menu Apa Hari Ini<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"> href=</span></span><span class="co"><span class="co">"#"</span></span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"hover-link"</span></span><span class="cb">&gt;</span>Menu 3<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/li</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/ul</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>

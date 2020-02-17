@@ -1,0 +1,143 @@
+<h2>Button</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn">Standard</button>
+		<button class="btn btn-primary">Primary</button>
+		<button class="btn btn-secondary">Secondary</button>
+		<button class="btn btn-info">Info</button>
+		<button class="btn btn-success">Success</button>
+		<button class="btn btn-danger">Danger</button>
+		<button class="btn btn-warning">Warning</button>
+		<button class="btn btn-dark">Dark</button>
+		<button class="btn btn-light">Light</button>
+	</div>
+</div>
+<div class="code-block">
+	<a class="code-copy">Copy</a>
+	<code>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn"</span><span class="cb">&gt;</span>Standard<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-primary"</span><span class="cb">&gt;</span>Primary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-secondary"</span><span class="cb">&gt;</span>Secondary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Info<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-success"</span><span class="cb">&gt;</span>Success<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-danger"</span><span class="cb">&gt;</span>Danger<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-warning"</span><span class="cb">&gt;</span>Warning<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-dark"</span><span class="cb">&gt;</span>Dark<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+		<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-light"</span><span class="cb">&gt;</span>Light<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span><br>
+	</code>
+</div>
+
+<h2>Button Size</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-md btn-secondary">Midle</button>
+		<button class="btn btn-md btn-out-secondary">Midle</button>
+		<button class="btn btn-md btn-noOut-secondary">Midle</button>
+	</div>
+</div>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-lg btn-dark">Large</button>
+		<button class="btn btn-lg btn-out-dark">Large</button>
+		<button class="btn btn-lg btn-noOut-dark">Large</button>
+	</div>
+</div>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-xl btn-info">Extra Large</button>
+		<button class="btn btn-xl btn-out-info">Extra Large</button>
+		<button class="btn btn-xl btn-noOut-info">Extra Large</button>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"code-preview"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"btn btn-md btn-secondary"</span><span class="cb">&gt;</span>Midle<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"btn btn-lg btn-secondary"</span><span class="cb">&gt;</span>Large<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"btn btn-xl btn-secondary"</span><span class="cb">&gt;</span>Extra Large<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<h2>Button Outline</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-out-primary">Primary</button>
+		<button class="btn btn-out-secondary">Secondary</button>
+		<button class="btn btn-out-info">Info</button>
+		<button class="btn btn-out-success">Success</button>
+		<button class="btn btn-out-danger">Danger</button>
+		<button class="btn btn-out-warning">Warning</button>
+		<button class="btn btn-out-dark">Dark</button>
+		<button class="btn btn-out-light">Light</button>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-primary"</span><span class="cb">&gt;</span>Primary<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-secondary"</span><span class="cb">&gt;</span>Secondary<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-info"</span><span class="cb">&gt;</span>Info<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-success"</span><span class="cb">&gt;</span>Success<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-danger"</span><span class="cb">&gt;</span>Danger<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-warning"</span><span class="cb">&gt;</span>Warning<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-dark"</span><span class="cb">&gt;</span>Dark<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-out-light"</span><span class="cb">&gt;</span>Light<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span></code></div>
+
+<h2>Button Non Outline</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-noOut-primary">Primary</button>
+		<button class="btn btn-noOut-secondary">Secondary</button>
+		<button class="btn btn-noOut-info">Info</button>
+		<button class="btn btn-noOut-success">Success</button>
+		<button class="btn btn-noOut-danger">Danger</button>
+		<button class="btn btn-noOut-warning">Warning</button>
+		<button class="btn btn-noOut-dark">Dark</button>
+		<button class="btn btn-noOut-light">Light</button>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-primary"</span><span class="cb">&gt;</span>Primary<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-secondary"</span><span class="cb">&gt;</span>Secondary<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-info"</span><span class="cb">&gt;</span>Info<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-success"</span><span class="cb">&gt;</span>Success<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-danger"</span><span class="cb">&gt;</span>Danger<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-warning"</span><span class="cb">&gt;</span>Warning<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-dark"</span><span class="cb">&gt;</span>Dark<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-noOut-light"</span><span class="cb">&gt;</span>Light<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span></code></div>
+
+<h2>Button Group</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="btn-group">
+			<button class="btn btn-dark">Button 1</button>
+			<button class="btn btn-dark">Button 2</button>
+			<button class="btn btn-dark">Button 3</button>
+			<button class="btn btn-dark">Button 4</button>	
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-dark"</span></span><span class="cb">&gt;</span>Button 1<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-dark"</span></span><span class="cb">&gt;</span>Button 2<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-dark"</span></span><span class="cb">&gt;</span>Button 3<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-dark"</span></span><span class="cb">&gt;</span>Button 4<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>&nbsp;
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="btn-group">
+			<button class="btn btn-out-success">Button 1</button>
+			<button class="btn btn-out-success">Button 2</button>
+			<button class="btn btn-out-success">Button 3</button>
+			<button class="btn btn-out-success">Button 4</button>	
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-out-success"</span></span><span class="cb">&gt;</span>Button 1<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-out-success"</span></span><span class="cb">&gt;</span>Button 2<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-out-success"</span></span><span class="cb">&gt;</span>Button 3<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"btn btn-out-success"</span></span><span class="cb">&gt;</span>Button 4<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>&nbsp;
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>

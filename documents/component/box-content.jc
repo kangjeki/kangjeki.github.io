@@ -1,0 +1,170 @@
+<h2>Box Content</h2>
+<div class="clear"></div>
+<h3 class="scroller-id" id="standard-box-content">Standard Box Content</h3>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 20px;">
+		<div class="row">
+			<div class="col-12">
+				<div class="box-content">
+					<div class="box-header">
+						<i class="fas fa-bullhorn"></i> Pengumuman
+					</div>
+					<div class="box-body">
+						<div class="note note-success">
+							<b>Halo halloo..</b> <br>
+							Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <br>
+							Jadi di mohon untuk hadir .. <br>
+							<br>
+							<b>Terimakasih..</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"box-content"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"box-header"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">i </span><span class="cl">class=</span><span class="co">"fas fa-bullhorn"</span><span class="cb">&gt;</span><span class="cb">&lt;</span><span class="cb">/i</span><span class="cb">&gt;</span> Pengumuman
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"box-body"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-success"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Halo halloo..<span class="cb">&lt;</span><span class="cb"><span class="cb">/b</span></span><span class="cb">&gt;</span> <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;Jadi di mohon untuk hadir .. <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Terimakasih..<span class="cb">&lt;</span><span class="cb"><span class="cb">/b</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<h3 class="scroller-id" id="box-content-column">Box Content Column</h3>
+<p>
+	Untuk Mengguanakan box model nya dapat di combinasikan dengan colom; <br>
+	Maka secara otomatis box-content akan menyesuaikan lebar colom;
+</p>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 20px;">
+		<div class="row">
+			<div class="col-4" style="padding: 5px;">
+				<div class="box-content">
+					<div class="box-header">
+						<i class="fas fa-bullhorn"></i> Pengumuman
+					</div>
+					<div class="box-body">
+						<div class="note note-warning">
+							<b>Halo halloo..</b> <br>
+							Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <br>
+							Jadi di mohon untuk hadir .. <br>
+							<br>
+							<b>Terimakasih..</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-8" style="padding: 5px;">
+				<div class="box-content">
+					<div class="box-header">
+						<i class="fas fa-bullhorn"></i> Pengumuman
+					</div>
+					<div class="box-body">
+						<div class="note note-info">
+							<b>Halo halloo..</b> <br>
+							Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <br>
+							Jadi di mohon untuk hadir .. <br>
+							<br>
+							<b>Terimakasih..</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"row"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-4"</span><span class="cl"><span class="cl"> style=</span></span>"padding 5px;"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"box-content"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"box-header"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">i </span><span class="cl">class=</span><span class="co"><span class="co">"fas fa-bullhorn"</span></span><span class="cb">&gt;</span><span class="cb">&lt;</span><span class="cb"><span class="cb">/i</span></span><span class="cb">&gt;</span> Pengumuman
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"box-body"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Halo halloo..<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/b</span></span></span></span><span class="cb">&gt;</span> <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jadi di mohon untuk hadir .. <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Terimakasih..<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/b</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-8"</span><span class="cl"><span class="cl"> style=</span></span>"padding 5px;"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"box-content"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"box-header"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">i </span><span class="cl">class=</span><span class="co"><span class="co">"fas fa-bullhorn"</span></span><span class="cb">&gt;</span><span class="cb">&lt;</span><span class="cb"><span class="cb">/i</span></span><span class="cb">&gt;</span> Pengumuman
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"box-body"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-info"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Halo halloo..<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/b</span></span></span></span><span class="cb">&gt;</span> <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jadi di mohon untuk hadir .. <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Terimakasih..<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/b</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>&nbsp;
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<h3 class="scroller-id" id="box-content-footer">Box Content Footer</h3>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 20px;">
+		<div class="row">
+			<div class="col-8">
+				<div class="box-content">
+					<div class="box-header">
+						<i class="fas fa-bullhorn"></i> Pengumuman
+					</div>
+					<div class="box-body">
+						<div class="note note-success">
+							<b>Halo halloo..</b> <br>
+							Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <br>
+							Jadi di mohon untuk hadir .. <br>
+							<br>
+							<b>Terimakasih..</b>
+						</div>
+					</div>
+					<div class="box-footer">
+						<button class="btn btn-info">Konfirm</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"row"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"box-content"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"box-header"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">i </span><span class="cl">class=</span><span class="co">"fas fa-bullhorn"</span><span class="cb">&gt;</span><span class="cb">&lt;</span><span class="cb">/i</span><span class="cb">&gt;</span> Pengumuman
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"box-body"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"note note-success"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Halo halloo..<span class="cb">&lt;</span><span class="cb"><span class="cb">/b</span></span><span class="cb">&gt;</span> <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Besok akan diadakan rapat darurat mengingat pentingnya menjaga solidaritas antar sesama <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jadi di mohon untuk hadir .. <span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">br</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">b</span><span class="cb">&gt;</span>Terimakasih..<span class="cb">&lt;</span><span class="cb"><span class="cb">/b</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"box-footer"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Konfirm<span class="cb">&lt;</span><span class="cb">/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>

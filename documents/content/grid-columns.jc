@@ -1,0 +1,214 @@
+<h2>Grid Columns</h2>
+<div class="code-layout">
+	<div class="code-preview preview-col">
+		<div class="row">
+			<div class="col-12">
+				col-12
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				col-6
+			</div>
+			<div class="col-6">
+				col-6
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"row"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-12"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-12
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"row"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"col-6"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-6
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co">"col-6"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-6
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span><span class="cb">&gt;</span></code></div>
+
+<p>
+	<b>Keterangan:</b><br>
+	Standard Columns Tidak menggunakan style padding atau <b>padding: 0</b>
+	untuk memberikan padding otomatis pada columns silahkan tambahkan class <b>'col-box'</b> pada columns yang akan di beri padding <br>
+	nilai padding standard <b>col-box</b> adalah <b>10px</b>;
+</p>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"row"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-8 col-box"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-8
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-4 col-box"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-4
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">&gt;</span></code></div>
+
+
+<h2>Grid Columns Varians</h2>
+<div class="code-layout">
+	<div class="code-preview preview-col">
+		<div class="row">
+			<div class="col-12">
+				col-12
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8">
+				col-8
+			</div>
+			<div class="col-4">
+				col-4
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-3">
+				col-3
+			</div>
+			<div class="col-6">
+				col-6
+			</div>
+			<div class="col-2">
+				col-2
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co">"row"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-12"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-12
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co">"row"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-8
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-4"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-4
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co">"row"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-1"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-1
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-3"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-3
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-6
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"col-2"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;col-2
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>
+
+
+<h2>Grid Columns Varians</h2>
+<div class="code-layout">
+	<div class="code-preview preview-col">
+		<div class="row">
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+			<div class="col-1">
+				col-1
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-2">
+				col-2
+			</div>
+			<div class="col-2">
+				col-2
+			</div>
+			<div class="col-2">
+				col-2
+			</div>
+			<div class="col-2">
+				col-2
+			</div>
+			<div class="col-2">
+				col-2
+			</div>
+			<div class="col-2">
+				col-2
+			</div>
+		</div>
+	</div>
+</div>
+<div class="note note-primary">
+	<p>
+		# Varian Columns grid berjumlah 12 columns, <br>
+		# Agar lebih efective combinasikan akan tetap berjumlah 12 dalam 1 row
+
+	</p>	
+</div>
+
+<div class="code-layout">
+	<div class="code-preview preview-col">
+		<div class="row">
+			<div class="col-3">
+				col-3
+			</div>
+			<div class="col-3">
+				col-3
+			</div>
+			<div class="col-3">
+				col-3
+			</div>
+			<div class="col-3">
+				col-3
+			</div>			
+		</div>
+
+		<div class="row">
+			<div class="col-4">
+				col-4
+			</div>
+			<div class="col-4">
+				col-4
+			</div>
+			<div class="col-4">
+				col-4
+			</div>
+		</div>
+	</div>
+</div>

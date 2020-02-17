@@ -1,0 +1,218 @@
+<h2>Layout</h2>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 50px;">
+		<div class="app">
+			<div class="header" style="height: 50px; background: #999;">
+				header block
+			</div>
+			<div class="container" style="height:200px; background: #ddd">
+				container block
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="code-block">
+	<a class="code-copy" id="code-copy">Copy</a>
+	<code>
+	<span class="cb"><</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"app"</span><span class="cb">></span><br>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"header"</span><span class="cb">></span><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;header block..<br>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">><br></span>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"container"</span><span class="cb">></span><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;content block..<br>
+	&nbsp;&nbsp;<span class="cb"><</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">><br></span>
+	<span class="cb"><</span><span class="cb"><span class="cb"><span class="cb">/div</span></span></span><span class="cb">></span><br>
+	</code>
+</div>
+
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="note note-info">
+			# Untuk Mode Header Fixed top gunakan attribute <b>mode="fixed"</b>
+		</div>
+	</div>
+</div>
+
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"app"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"header"</span><span class="cl"> mode=</span><span class="co">"fixed"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;header block..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"container"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;content block..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="clear"></div>
+<h2>Header Block Example dengan navbar</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="header">
+			<nav class="row navbar navbar-dark">
+				<div class="col-2 navbar-brand">
+					<div class="navbar-itme navbar-toggle">
+						<button class="btn btn-sidebar" expand-target="#sidebar-left">
+							<i class="fas fa-bars"></i>	
+						</button>
+					</div>
+					<div class="navbar-item">
+						<div class="brand">
+							<img src="jc_include/img/img_atb/logo.png">	
+						</div>
+					</div>
+					<div class="navbar-itme navbar-toggle">
+						<button class="btn btn-navbar" expand-target=".header">
+							<i class="fas fa-ellipsis-v"></i>
+						</button>
+					</div>
+				</div>
+				<div class="col-6 navbar-left">
+					<div class="navbar-item">
+						<a href="index" class="navbar-link">Menu</a>
+					</div>
+					<div class="navbar-item">
+						<a href="#" class="navbar-link">Menu</a>
+					</div>
+				</div>
+				<div class="col-4 navbar-right">
+					<div class="navbar-item">
+						<a class="navbar-link">Menu</a>
+					</div>
+					<div class="navbar-item">
+						<a class="navbar-link">Menu</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"header"</span><span class="cl"> mode=</span><span class="co">"fixed"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>nav</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"row navbar navbar-dark"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"col-2 navbar-brand"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar-itme navbar-toggle"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"btn btn-sidebar"</span><span class="cl"> expand-target=</span><span class="co">"#sidebar-left"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"fas fa-bars"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"brand"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"> src=</span><span class="co">"..."</span><span class="cb">&gt;</span>&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"navbar-itme navbar-toggle"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"btn btn-navbar"</span><span class="cl"> expand-target=</span><span class="co">".header"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"fas fa-ellipsis-v"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"col-6 navbar-left"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"> href=</span><span class="co">"index"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co">"navbar-link"</span></span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"> href=</span><span class="co">"#"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co">"navbar-link"</span></span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co">"col-4 navbar-right"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co">"navbar-link"</span></span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co">"navbar-item"</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>a</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span></span></span></span><span class="co"><span class="co">"navbar-link"</span></span><span class="cb">&gt;</span>Menu<span class="cb"><span class="cb">&lt;</span>/a</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/nav</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+
+<h2>Contoh dengan sidebar</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="app">
+			<div class="header">
+			<nav class="row navbar navbar-dark">
+				<div class="col-2 navbar-brand">
+					<div class="navbar-itme navbar-toggle">
+						<button class="btn btn-sidebar" expand-target="#sidebar-left">
+							<i class="fas fa-bars"></i>	
+						</button>
+					</div>
+					<div class="navbar-item">
+						<div class="brand">
+							<img src="jc_include/img/img_atb/logo.png">	
+						</div>
+					</div>
+					<div class="navbar-itme navbar-toggle">
+						<button class="btn btn-navbar" expand-target=".header">
+							<i class="fas fa-ellipsis-v"></i>
+						</button>
+					</div>
+				</div>
+				<div class="col-6 navbar-left">
+					<div class="navbar-item">
+						<a href="index" class="navbar-link">Menu</a>
+					</div>
+					<div class="navbar-item">
+						<a href="#" class="navbar-link">Menu</a>
+					</div>
+				</div>
+				<div class="col-4 navbar-right">
+					<div class="navbar-item">
+						<a class="navbar-link">Menu</a>
+					</div>
+					<div class="navbar-item">
+						<a class="navbar-link">Menu</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+			<div class="container" style="background: #ddd">
+				<div class="row content-wrapper">
+					<div class="col-2 sidebar" id="sidebar-left" style="background: #229756">
+						block sidebar..<br>
+					</div>
+					<div class="col-10" style="background: #27469F">
+						<div id="content">
+
+							content in here....
+
+						</div>
+						<div class="footer-container">
+							<div class="block-licence">
+								JC Boster Web Component | Author : JC_Programs
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"app"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"header"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;header block
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"container"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"row content-wrapper"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"col-2 sidebar"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;block sidebar..<span class="cb">&lt;</span>br<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"col-10"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"> id=</span><span class="co">"content"</span><span class="cb">&gt;</span>
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content in here....
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"footer-container"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"block-licence"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JC Boster Web Component | Author : JC_Programs
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>&nbsp;</code></div>

@@ -1,0 +1,112 @@
+<h2>Card</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="box-card">
+			<div class="card">
+				# abc
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"> class=</span><span class="co">"box-card"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"> class=</span><span class="co">"card"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;# abc
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<div class="note note-secondary">
+	# card merepresenteasikan grid column. <br>
+	# gunakan attribute <b>grid</b> untuk mengatur jumlah kolom. <br>
+	# untuk background mengikuti group color standard dengan background defaul #555. <br>
+	# styling background menggunakan class | ex: <b>card-success</b>
+
+</div>
+
+<div class="clear"></div>
+<h2>Card Grid</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="box-card" grid="4" padding="10px">
+			<div class="card card-danger">
+				# abc
+			</div>
+			<div class="card card-success">
+				# abc
+			</div>
+			<div class="card card-secondary">
+				# abc
+			</div>
+			<div class="card card-warning">
+				# abc
+			</div>
+			<div class="card card-warning">
+				# abc
+			</div>
+			<div class="card card-warning">
+				# abc
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"box-card"</span><span class="cl"> grid=</span><span class="co">"4"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card card-danger"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;# abc
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card card-success"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;# abc
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card card-secondary"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;# abc
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card card-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;# abc
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="clear"></div>
+<h2>Card Message</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="box-card">
+			<div class="card card-info card-message">
+				<div class="card-message-left">
+					<img src="jc_include/img/img_atb/logo.png">
+				</div>
+				<div class="card-message-right">
+					<div class="card-message-title">
+						New Insert | 18-Oct-2019
+					</div>
+					<div class="card-message-body">
+						Jeki Cun Menambahkan Data Baru <br>
+						hallo.. oke bro..
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div class="note note-info">
+	# group message width auto 100%;
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"box-card"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card card-info card-message"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card-message-left"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>img</span><span class="cl"> src=</span>"jc_include/img/img_atb/logo.png"<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card-message-right"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card-message-title"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;New Insert | 18-Oct-2019
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"card-message-body"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Jeki Cun Menambahkan Data Baru <span class="cb">&lt;</span>br<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;hallo.. oke bro..
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>&nbsp;
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>

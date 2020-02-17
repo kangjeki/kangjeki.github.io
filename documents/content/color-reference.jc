@@ -1,0 +1,176 @@
+<div class="card card-light">
+	Halaman Ini Menggunakan Mode SPA non Template Click <b>Active</b> Untuk Mengaktifkan Fungsi Halaman  
+	<button class="btn btn-warning" onclick="activeConstruct()">Active</button>
+</div>
+
+<h2>Color Reference</h2>
+<div id="color-reference">
+	<div class="code-layout">
+		<div class="code-preview">
+			<div class="row">
+				<div class="col-6">
+					<div class="block-color-slider">
+						<div id="show-preview-color" style="background: rgb(0,0,0);"></div>
+						<div class="clear"></div>
+						<div class="input-group">
+							<span style="margin: 0; padding: 2px 10px; line-height: 30px; color: #fff; background: red;border-radius: 4px;">R</span>
+							<input type="range" id="range-r" max="255" min="0" value="0" style="width: 100%;">
+							<input type="text" id="range-num-r" value="0" style="width: 50px !important; border-radius: 4px; text-align: center;">
+						</div>
+						<div class="input-group">
+							<span style="margin: 0; padding: 2px 10px; line-height: 30px; color: #fff; background: green;border-radius: 4px;">G</span>
+							<input type="range" id="range-g" max="255" min="0" value="0" style="width: 100%;">
+							<input type="text" id="range-num-g" value="0" style="width: 50px !important; border-radius: 4px; text-align: center;">
+						</div>
+						<div class="input-group">
+							<span style="margin: 0; padding: 2px 10px; line-height: 30px; color: #fff; background: blue;border-radius: 4px;">B</span>
+							<input type="range" id="range-b" max="255" min="0" value="0" style="width: 100%;">
+							<input type="text" id="range-num-b" value="0" style="width: 50px !important; border-radius: 4px; text-align: center;">
+						</div>
+					</div>		
+				</div>
+				<div class="col-6" style="padding: 0 10px;">
+					<div class="input-group">
+						<span style="margin: 0; padding: 2px 10px; line-height: 30px; color: #333; background: #DDD;border-radius: 4px;">HEX</span>
+						<input type="text" id="out-hex" value="" style="width: 50% !important; border-radius: 4px; text-align: center;">
+						<button class="btn btn-info copy-color" target-copy='#out-hex'>Copy</button>
+					</div>
+					<div class="clear"></div>
+					<div class="input-group">
+						<span style="margin: 0; padding: 2px 10px; line-height: 30px; color: #333; background: #DDD;border-radius: 4px;">RGB</span>
+						<input type="text" id="out-rgb" value="" style="width: 50% !important; border-radius: 4px; text-align: center;">
+						<button class="btn btn-info copy-color" target-copy='#out-rgb'>Copy</button>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	<div class="code-layout">
+		<div class="code-preview">
+			<div class="row">
+				<div class="col-1">
+					<input type="color" id="input-color">
+				</div>
+				<div class="col-11">
+					<div class="row color-preview" id="preview-gen">
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+						<div class="col-1">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	<div class="code-layout">
+		<div class="code-preview">
+			<label>Red</label>
+			<div class="row color-preview" id="preview-red">
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+			</div>
+			<div class="clear"></div>
+			<label>Green</label>
+			<div class="row color-preview" id="preview-green">
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+			</div>
+			<div class="clear"></div>
+			<label>Blue</label>
+			<div class="row color-preview" id="preview-blue">
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+			</div>
+			<div class="clear"></div>
+			<label>Yellow</label>
+			<div class="row color-preview" id="preview-yellow">
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+			</div>
+			<div class="clear"></div>
+			<label>Ungu</label>
+			<div class="row color-preview" id="preview-ungu">
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+			</div>
+
+		</div>
+	</div>
+</div>

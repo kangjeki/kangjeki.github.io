@@ -1,0 +1,101 @@
+<h2>Hirarki Struktur</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="hirarki-struktur">
+			<div class="hirarki-group">
+				<div class="parent-hirarki">
+					<div class="box-hirarki">
+						<div class="box-card">
+							<div class="card card-success card-message">
+								<div class="card-message-left">
+									<img src="jc_include/img/img_atb/logo.png">
+								</div>
+								<div class="card-message-right">
+									<h4>Owner Pusat</h4>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+				<div class="sub-hirarki">
+					<div class="box-hirarki">
+						<div class="box-card">
+							<div class="card card-dark card-message">
+								<div class="card-message-left">
+									<img src="jc_include/img/img_atb/logo.png">
+								</div>
+								<div class="card-message-right">
+									<h4>Co-Owner Pusat</h4>
+								</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+
+				<div class="child-hirarki hirarki-flex">
+					<div class="group-hirarki">
+						<div class="parent-hirarki">
+							<div class="box-hirarki">
+								<div class="box-card">
+									<div class="card card-danger card-message">
+										<div class="card-message-left">
+											<img src="jc_include/img/img_atb/logo.png">
+										</div>
+										<div class="card-message-right">
+											<h4>Owner</h4>
+										</div>
+									</div>		
+								</div>
+							</div>
+						</div>
+
+						<div class="sub-hirarki">
+							<div class="box-hirarki">
+								<div class="box-card">
+									<div class="card card-light card-message">
+										<div class="card-message-left">
+											<img src="jc_include/img/img_atb/logo.png">
+										</div>
+										<div class="card-message-right">
+											<h4>Co-Owner</h4>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+
+						<div class="child-hirarki">
+							<div class="box-hirarki">
+								<div class="box-card">
+									<div class="card card-info card-message">
+										<div class="card-message-left">
+											<img src="jc_include/img/img_atb/logo.png">
+										</div>
+										<div class="card-message-right">
+											<h4>Perangkai</h4>
+										</div>
+									</div>	
+								</div>
+							</div>
+
+							<div class="box-hirarki">
+								<div class="box-card">
+									<div class="card card-info card-message">
+										<div class="card-message-left">
+											<img src="jc_include/img/img_atb/logo.png">
+										</div>
+										<div class="card-message-right">
+											<h4>Pengantar</h4>
+										</div>
+									</div>	
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>

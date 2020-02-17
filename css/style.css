@@ -1,0 +1,214 @@
+body {
+	background: #fefefe;
+}
+
+/*----------------------------------------------------------------------------------*/
+.fas[red] {
+    color: red !important;
+}
+.fas[darkred] {
+    color: darkred !important;
+}
+.fas[green] {
+    color: green !important;
+}
+.fas[lightgreen] {
+    color: lightgreen !important;
+}
+.fas[green] {
+    color: green !important;
+}
+.fas[blue] {
+    color: blue !important;
+}
+.fas[lightblue] {
+    color: lightblue !important;
+}
+.fas[darkblue] {
+    color: darkblue !important;
+}
+.fas[yellow] {
+    color: yellow !important;
+}
+.fas[orange] {
+    color: orange !important;
+}
+.fas[cyan] {
+    color: cyan !important;
+}
+.fas[magenta] {
+    color: magenta !important;
+}
+.fas[purple] {
+    color: purple !important;
+}
+.fas[salmon] {
+    color: salmon !important;
+}
+.fas[white] {
+    color: white !important;
+}
+.fas[black] {
+    color: black !important;
+}
+.fas[gray] {
+	color: gray !important;
+}
+
+
+/*.header {
+	margin: 0; padding: 0;
+	background: #2FCA15 !important;
+	width: 100%;
+	color: #fff;
+	height: 50px;
+}*/
+/*.header .header-brand {
+	margin: 0; padding: 0px;
+}
+.header .header-brand img {
+	margin: 0; padding: 0px;
+	max-height: 40px;
+	max-width: 40px;
+	line-height: 0px;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+*/
+/*----------------------------------------------------------------------------------*/
+.code-layout {
+	margin: 0; padding: 10px;
+	background: #f3f3f3;
+
+}
+.code-preview {
+	background: #fff;
+	padding: 5px;
+}
+.code-block {
+	background: #f3f3f3;
+	margin: 0; padding: 20px;
+	position: relative;
+}
+.code-copy {
+	margin: 0; padding: 5px 10px; position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 12px;
+	background: 
+}
+.code-copy:hover {
+	color: #555;
+}
+.code-copy:active {
+	background: #555;
+	color: #fff;
+	padding: 5px 10px;
+	border: 0 solid;
+	border-radius: 5px;
+}
+code {
+	word-break: normal;
+	margin-top: 10px;
+}
+code .cb {
+	color: #3D39AA;
+}
+code .cl {
+	color: #3C8AC7;
+}
+code .co {
+	color: #D16B10;
+}
+
+.preview-col .col-1, .preview-col .col-2, .preview-col .col-3, .preview-col .col-4,  .preview-col .col-5, .preview-col .col-6, .preview-col .col-7, .preview-col .col-8, .preview-col .col-9, .preview-col .col-10, .preview-col .col-11, .preview-col .col-12 {
+	background: #f9f9f9 !important;
+	padding: 10px !important;
+	border: 1px #ddd solid;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.block-color-slider {
+	margin: 0; padding: 0;
+}
+#show-preview-color {
+	width: 100%;
+	height: 100px;
+	border: 1px #ddd solid;
+	border-radius: 5px;
+}
+#color-reference .color-preview .col-1 {
+	cursor: pointer;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+.footer-container {
+	margin: 0; padding: 10px;
+}
+.footer-container .block-licence {
+	margin: 0; padding: 15px;
+	text-align: center;
+	font-size: 15px;
+	background: #f9f9f9;
+}
+
+/*----------------------------------------------------------------------------------*/
+.template-list {
+	margin: 0; padding: 0;
+	display: inline-block;
+}
+.template-item {
+	margin: 0; padding: 5px;
+	display: inline-block;
+	position: relative;
+	height: 240px;
+	width: 350px;
+	border: 1px #bbb solid;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.template-item .template-url {
+	margin: 0; padding: 5px 10px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.template-item .template-url i {
+	color: #F1BB28;
+	margin-right: 5px;
+	font-size: 20px;
+	padding: 0;
+}
+
+.template-item .preview {
+	
+	width:600px; height:400px;
+	-webkit-transform:scale(.5);
+	-ms-transform:scale(.5);
+	transform:scale(.5);
+	-webkit-transform-origin:0 0; 
+	-ms-transform-origin:0 0; 
+	transform-origin:0 0; 
+	border:4px solid #ddd;
+	margin:0 0 0;
+	position: absolute;
+}
+
+.template-item .del-template {
+	position: absolute;
+	top: 5px; right: 5px;
+}
+
+
+/*.btn {
+	border-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.note {
+	border-radius: 0px;
+}
+*/

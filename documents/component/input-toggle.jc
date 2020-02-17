@@ -1,0 +1,406 @@
+<h2>Input Toggle</h2>
+
+<div class="garis"></div>
+<h4>Checbox</h4>
+
+<div class="clear"></div>
+<div class="note note-info">
+	# Checkbox menggunakan font Awesome
+</div>
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<span class="checkbox">
+			<label for="check1">
+				<input type="checkbox" id="check1">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+		<label for="check1">Checkbox Standard</label>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"> class=</span><span class="co">"checkbox"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"> for=</span><span class="co"><span class="co">"check1"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"checkbox"</span><span class="cl"> id=</span><span class="co"><span class="co">"check1"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"> class=</span><span class="co">"fas fa-check-square"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"> for=</span><span class="co"><span class="co">"check1"</span></span><span class="cb">&gt;</span>Checkbox Standard<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span></code></div>
+
+<h4>Checbox Color</h4>
+<div class="code-layout">
+	<div class="code-preview">
+		<span class="checkbox checkbox-primary">
+			<label for="check2">
+				<input type="checkbox" id="check2">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+		<span class="checkbox checkbox-secondary">
+			<label for="check3">
+				<input type="checkbox" id="check3">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+		<span class="checkbox checkbox-info">
+			<label for="check4">
+				<input type="checkbox" id="check4">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+		<span class="checkbox checkbox-success">
+			<label for="check5">
+				<input type="checkbox" id="check5">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+		<span class="checkbox checkbox-danger">
+			<label for="check6">
+				<input type="checkbox" id="check6">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+		<span class="checkbox checkbox-dark">
+			<label for="check7">
+				<input type="checkbox" id="check7">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+		<span class="checkbox checkbox-light">
+			<label for="check8">
+				<input type="checkbox" id="check8">
+				<i class="fas fa-check-square"></i>
+			</label>
+		</span>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"checkbox checkbox-primary"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"check2"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"check2"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"fas fa-check-square"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"checkbox checkbox-secondary"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"check3"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"check3"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"fas fa-check-square"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"checkbox checkbox-info"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"check4"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"check4"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"fas fa-check-square"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"checkbox checkbox-success"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"check5"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"check5"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"fas fa-check-square"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"checkbox checkbox-danger"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"check6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"check6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"fas fa-check-square"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"checkbox checkbox-dark"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"check7"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"check7"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"fas fa-check-square"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"checkbox checkbox-light"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"check8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"check8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"fas fa-check-square"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="clear"></div>
+<h4>Toggle Switch</h4>
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<label for="toggle1">Toggle Switch Standard</label>
+		<span class="toggle-switch">
+			<label for="toggle1">
+				<input type="checkbox" id="toggle1">
+				<span class="slider"></span>
+			</label>
+		</span>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"> for=</span><span class="co"><span class="co">"toggle1"</span></span><span class="cb">&gt;</span>Toggle Switch Standard<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"> class=</span><span class="co">"toggle-switch"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"> for=</span><span class="co"><span class="co">"toggle1"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"checkbox"</span><span class="cl"> id=</span><span class="co"><span class="co">"toggle1"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"> class=</span><span class="co">"slider"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<div class="note note-warning">
+	# penggunaan ukuran menggunakan class "<i>toggle-switch-md</i>" <br>
+	# <b>toggle-switch-md</b> unkuran midle <br>
+	# <b>toggle-switch-lg</b> unkuran large <br>
+	# <b>toggle-switch-xl</b> unkuran extra large
+</div>
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<label for="toggle2">Midle</label>
+		<span class="toggle-switch toggle-switch-md">
+			<label for="toggle2">
+				<input type="checkbox" id="toggle2">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<label for="toggle3">Large</label>
+		<span class="toggle-switch toggle-switch-lg">
+			<label for="toggle3">
+				<input type="checkbox" id="toggle3">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<label for="toggle4">Extra Large</label>
+		<span class="toggle-switch toggle-switch-xl">
+			<label for="toggle4">
+				<input type="checkbox" id="toggle4">
+				<span class="slider"></span>
+			</label>
+		</span>
+	</div>
+</div>
+
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span><span class="co"><span class="co">"toggle2"</span></span><span class="cb">&gt;</span>Midle<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"toggle-switch toggle-switch-md"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span><span class="co"><span class="co">"toggle2"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"checkbox"</span></span><span class="cl"><span class="cl"> id=</span></span><span class="co"><span class="co">"toggle2"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"slider"</span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span><span class="co"><span class="co">"toggle3"</span></span><span class="cb">&gt;</span>Large<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"toggle-switch toggle-switch-lg"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span><span class="co"><span class="co">"toggle3"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"checkbox"</span></span><span class="cl"><span class="cl"> id=</span></span><span class="co"><span class="co">"toggle3"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"slider"</span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span><span class="co"><span class="co">"toggle4"</span></span><span class="cb">&gt;</span>Extra Large<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"toggle-switch toggle-switch-xl"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span><span class="co"><span class="co">"toggle4"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"checkbox"</span></span><span class="cl"><span class="cl"> id=</span></span><span class="co"><span class="co">"toggle4"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co"><span class="co">"slider"</span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="clear"></div>
+<div class="note note-warning">
+	# penggunaan Warna menggunakan class standard color;
+</div>
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<span class="toggle-switch toggle-switch-lg toggle-switch-primary">
+			<label for="toggle5">
+				<input type="checkbox" id="toggle5">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<span class="toggle-switch toggle-switch-lg toggle-switch-secondary">
+			<label for="toggle6">
+				<input type="checkbox" id="toggle6">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<span class="toggle-switch toggle-switch-lg toggle-switch-info">
+			<label for="toggle7">
+				<input type="checkbox" id="toggle7">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<span class="toggle-switch toggle-switch-lg toggle-switch-success">
+			<label for="toggle8">
+				<input type="checkbox" id="toggle8">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<span class="toggle-switch toggle-switch-lg toggle-switch-danger">
+			<label for="toggle9">
+				<input type="checkbox" id="toggle9">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<span class="toggle-switch toggle-switch-lg toggle-switch-warning">
+			<label for="toggle10">
+				<input type="checkbox" id="toggle10">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<span class="toggle-switch toggle-switch-lg toggle-switch-dark">
+			<label for="toggle11">
+				<input type="checkbox" id="toggle11">
+				<span class="slider"></span>
+			</label>
+		</span>
+		<span class="toggle-switch toggle-switch-lg toggle-switch-light">
+			<label for="toggle12">
+				<input type="checkbox" id="toggle12">
+				<span class="slider"></span>
+			</label>
+		</span>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-primary"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle5"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle5"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-secondary"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-info"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle7"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle7"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-success"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-danger"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle9"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle9"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle10"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle10"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-dark"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle11"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle11"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co">"toggle-switch toggle-switch-lg toggle-switch-light"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"toggle12"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"checkbox"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"toggle12"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"slider"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span></code></div>
+
+
+
+<h4>Radio Color</h4>
+<div class="code-layout">
+	<div class="code-preview">
+		<span class="radio radio-primary">
+			<label for="radio2">
+				<input type="radio" name="sample" id="radio2">
+				<i class="far fa-dot-circle"></i>
+			</label>
+		</span>
+		<span class="radio radio-secondary">
+			<label for="radio3">
+				<input type="radio" name="sample" id="radio3">
+				<i class="far fa-dot-circle"></i>
+			</label>
+		</span>
+		<span class="radio radio-info">
+			<label for="radio4">
+				<input type="radio" name="sample" id="radio4">
+				<i class="far fa-dot-circle"></i>
+			</label>
+		</span>
+		<span class="radio radio-success">
+			<label for="radio5">
+				<input type="radio" name="sample" id="radio5">
+				<i class="far fa-dot-circle"></i>
+			</label>
+		</span>
+		<span class="radio radio-danger">
+			<label for="radio6">
+				<input type="radio" name="sample" id="radio6">
+				<i class="far fa-dot-circle"></i>
+			</label>
+		</span>
+		<span class="radio radio-dark">
+			<label for="radio7">
+				<input type="radio" name="sample" id="radio7">
+				<i class="far fa-dot-circle"></i>
+			</label>
+		</span>
+		<span class="radio radio-light">
+			<label for="radio8">
+				<input type="radio" name="sample" id="radio8">
+				<i class="far fa-dot-circle"></i>
+			</label>
+		</span>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"radio radio-primary"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"radio2"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"radio"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> name=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"sample"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"radio2"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"far fa-dot-circle"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"radio radio-secondary"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"radio3"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"radio"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> name=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"sample"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"radio3"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"far fa-dot-circle"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"radio radio-info"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"radio4"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"radio"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> name=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"sample"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"radio4"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"far fa-dot-circle"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"radio radio-success"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"radio5"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"radio"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> name=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"sample"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"radio5"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"far fa-dot-circle"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"radio radio-danger"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"radio6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"radio"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> name=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"sample"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"radio6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"far fa-dot-circle"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"radio radio-dark"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"radio7"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"radio"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> name=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"sample"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"radio7"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"far fa-dot-circle"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"radio radio-light"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> for=</span></span></span></span><span class="co">"radio8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> type=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"radio"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> name=</span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"sample"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> id=</span></span></span></span><span class="co">"radio8"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co">"far fa-dot-circle"</span></span></span></span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span></code></div>

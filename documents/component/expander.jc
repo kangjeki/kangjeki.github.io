@@ -1,0 +1,78 @@
+<h2>Expand dan Accordion</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-primary expand" expand-target="#contoh">Sample Expand</button>
+		<button class="btn btn-primary expand" expand-target="#contoh">Sample Expand</button>
+		<div class="expand-group" id="contoh">
+			<div class="alert alert-warning">
+				*Ini Adalah Expand Hide Show <br>
+				*Web Component Example <br>
+				*Mudah dan Simple
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-primary expand"</span><span class="cl"> expand-target=</span><span class="co">"#contoh"</span><span class="cb">&gt;</span>Sample Expand<span class="cb">&lt;</span><span class="cb">/button</span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"expand-group"</span><span class="cl"> id=</span><span class="co">"contoh"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;*Ini Adalah Expand Hide Show
+<br>&nbsp;&nbsp;*Web Component Example
+<br>&nbsp;&nbsp;*Mudah dan Simple
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb">/div</span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb">/div</span></span><span class="cb">&gt;</span></code></div>
+
+<h2>Expand dan Rolling</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-primary expand" group-roll="satu" expand-target="#contoh2">Sample2 Expand</button>
+		<button class="btn btn-primary expand" group-roll="satu" expand-target="#contoh3">Sample3 Expand</button>
+		<div class="row">
+			<div class="col-6">
+				<div class="expand-group" roll="satu" id="contoh2">
+					<div class="note note-warning">
+						*Ini Adalah Expand Hide Show <br>
+						*Web Component Example <br>
+						*Mudah dan Simple
+					</div>
+				</div>		
+			</div>
+			<div class="col-6">
+				<div class="expand-group" roll="satu" id="contoh3">
+					<div class="note note-warning">
+						*Ini Adalah Expand Hide Show <br>
+						*Web Component Example <br>
+						*Mudah dan Simple
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="note note-success">
+	*Untuk Rolling Expand Tambahkan attribute <b>group-roll="..."</b> pada semua class <b>expand</b> <br>
+	*Seterusnya tambahkan attribute <b>roll="..."</b> untuk target <b>group-roll</b>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"btn btn-primary expand"</span><span class="cl"> group-roll=</span><span class="co"><span class="co">"satu"</span></span><span class="cl"> expand-target=</span><span class="co">"#contoh2"</span><span class="cb">&gt;</span>Sample2 Expand<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"btn btn-primary expand"</span><span class="cl"> group-roll=</span><span class="co"><span class="co">"satu"</span></span><span class="cl"> expand-target=</span><span class="co">"#contoh3"</span><span class="cb">&gt;</span>Sample3 Expand<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"row"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"col-6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"expand-group"</span><span class="cl"> roll=</span><span class="co"><span class="co">"satu"</span></span><span class="cl"> id=</span><span class="co">"contoh2"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"note note-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*Ini Adalah Expand Hide Show <span class="cb">&lt;</span>br<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*Web Component Example <span class="cb">&lt;</span>br<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*Mudah dan Simple
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>&nbsp;&nbsp;
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"col-6"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"expand-group"</span><span class="cl"> roll=</span><span class="co"><span class="co">"satu"</span></span><span class="cl"> id=</span><span class="co">"contoh3"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span><span class="co">"note note-warning"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*Ini Adalah Expand Hide Show <span class="cb">&lt;</span>br<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*Web Component Example <span class="cb">&lt;</span>br<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*Mudah dan Simple
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>

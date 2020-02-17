@@ -1,0 +1,27 @@
+<h2>Badge</h2>
+<div class="row">
+	<div class="col-12">
+		<div class="code-layout">
+			<div class="code-preview">
+				<span class="badge">Standard</span>
+				<span class="badge badge-primary">Primary</span>
+				<span class="badge badge-secondary">Secondary</span>
+				<span class="badge badge-info">Info</span>
+				<span class="badge badge-success">Success</span>
+				<span class="badge badge-danger">Danger</span>
+				<span class="badge badge-warning">Warning</span>
+				<span class="badge badge-dark">Dark</span>
+				<span class="badge badge-light">Light</span>
+			</div>
+		</div>
+		<div class="code-block"><a class="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge"</span><span class="cb">&gt;</span>Standard<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-primary"</span><span class="cb">&gt;</span>Primary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-secondary"</span><span class="cb">&gt;</span>Secondary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-info"</span><span class="cb">&gt;</span>Info<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-success"</span><span class="cb">&gt;</span>Success<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-danger"</span><span class="cb">&gt;</span>Danger<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-warning"</span><span class="cb">&gt;</span>Warning<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-dark"</span><span class="cb">&gt;</span>Dark<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">span </span><span class="cl">class=</span><span class="co">"badge badge-light"</span><span class="cb">&gt;</span>Light<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/span</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>
+	</div>
+</div>

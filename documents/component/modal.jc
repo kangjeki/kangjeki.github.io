@@ -1,0 +1,74 @@
+<h2>Input</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-info modal-toggle" target="#modalLounch">Show Modal</button>
+		<div class="modal" modal-width="500px" id="modalLounch" tabindex="-1">
+			<div class="modal-block">
+				<div class="modal-content">
+					<div class="box-content">
+						<div class="box-header">
+							<i class="fas fa-info"></i> Modal Preview
+							<div class="close-box modal-toggle" target="#modalLounch">
+								<i class="fas fa-times"></i>
+							</div>
+						</div>
+						<div class="box-body">
+							<input type="text" class="input-control" name="">
+							<div class="clear"></div>
+							<div class="note note-success">
+								#Makan malam sebelum tidur oke
+							</div>
+							<input type="text" class="input-control" name="">
+							<div class="clear"></div>
+							<div class="note note-success">
+								#Makan malam sebelum tidur oke
+							</div>
+							<input type="text" class="input-control" name="">
+							<div class="clear"></div>
+							<div class="note note-success">
+								#Makan malam sebelum tidur oke
+							</div>
+							<input type="text" class="input-control" name="">
+							<div class="clear"></div>
+							<div class="note note-success">
+								#Makan malam sebelum tidur oke
+							</div>
+						</div>
+						<div class="box-footer">
+							<button class="btn btn-primary">Masuk</button>
+							<button class="btn btn-info modal-toggle" target="#modalLounch">Close</button>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+
+<div class="note note-info">
+	# Sesuaikan Lebar Modal dengan mengganti value attribute <b>modal-width</b>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"btn btn-info modal-toggle"</span><span class="cl"><span class="cl"> target=</span></span><span class="co"><span class="co">"#modalLounch"</span></span><span class="cb">&gt;</span>Show Modal<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"modal"</span><span class="cl"> modal-width=</span><span class="co">"500px"</span><span class="cl"> id=</span><span class="co">"modalLounch"</span><span class="cl"> tabindex=</span><span class="co">"-1"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"modal-block"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"modal-content"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"box-content"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"box-header"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"fas fa-info"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span> Modal Preview
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"close-box modal-toggle"</span><span class="cl"><span class="cl"> target=</span></span><span class="co"><span class="co">"#modalLounch"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>i</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"fas fa-times"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/i</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"box-body"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"box-footer"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"btn btn-primary"</span><span class="cb">&gt;</span>Masuk<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span></span></span></span><span class="co">"btn btn-info modal-toggle"</span><span class="cl"><span class="cl"> target=</span></span><span class="co"><span class="co">"#modalLounch"</span></span><span class="cb">&gt;</span>Close<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>&nbsp;
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>

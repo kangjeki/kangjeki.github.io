@@ -1,0 +1,71 @@
+<h2>Form</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="row">
+			<div class="col-4">
+				<form action="" method="">
+					<div class="form-group">
+						<label for="">Email</label>
+						<input type="text" class="input-control" placeholder="Email">
+						<smal class="input-help">Email Login..</smal>
+					</div>
+					<div class="form-group">
+						<label for="">Password</label>
+						<input type="Password" class="input-control" placeholder="Password">
+					</div>
+					<button class="btn btn-info">Login</button>
+				</form>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>form</span><span class="cl"> action=</span><span class="co"><span class="co">""</span></span><span class="cl"> method=</span><span class="co"><span class="co">""</span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"form-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"> for=</span><span class="co"><span class="co">""</span></span><span class="cb">&gt;</span>Email<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cl"> placeholder=</span><span class="co">"Email"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>smal</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-help"</span><span class="cb">&gt;</span>Email Login..<span class="cb"><span class="cb">&lt;</span>/smal</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"form-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>label</span><span class="cl"> for=</span><span class="co"><span class="co">""</span></span><span class="cb">&gt;</span>Password<span class="cb"><span class="cb">&lt;</span>/label</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"Password"</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cl"> placeholder=</span><span class="co">"Password"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Login<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/form</span><span class="cb">&gt;</span>&nbsp;</code></div>
+
+
+<div class="code-layout">
+	<div class="code-preview">
+		<form action="" method="">
+			<fieldset>
+				<legend>Form Login:</legend>
+				<div class="input-group">
+					<input type="text" class="input-control" name="">
+					<input type="text" class="input-control" name="">
+				</div>
+
+				<div class="clear"></div>
+				<input type="text" class="input-control" name="">
+				
+				<div class="clear"></div>
+				<button class="btn btn-success">Masuk</button>
+			</fieldset>				
+		</form>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>form</span><span class="cl"> action=</span><span class="co"><span class="co"><span class="co">""</span></span></span><span class="cl"> method=</span><span class="co"><span class="co"><span class="co">""</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span>fieldset<span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span>legend<span class="cb">&gt;</span>Form Login<span class="cb"><span class="cb">&lt;</span>/legend</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"text"</span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co"><span class="co">"input-control"</span></span><span class="cl"><span class="cl"> name=</span></span><span class="co"><span class="co"><span class="co">""</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"text"</span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co"><span class="co">"input-control"</span></span><span class="cl"><span class="cl"> name=</span></span><span class="co"><span class="co"><span class="co">""</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"clear"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"text"</span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co"><span class="co">"input-control"</span></span><span class="cl"><span class="cl"> name=</span></span><span class="co"><span class="co"><span class="co">""</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"clear"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"btn btn-success"</span><span class="cb">&gt;</span>Masuk<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/fieldset</span><span class="cb">&gt;</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<br><span class="cb"><span class="cb">&lt;</span>/form</span><span class="cb">&gt;</span></code></div>

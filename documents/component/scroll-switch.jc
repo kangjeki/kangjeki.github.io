@@ -1,0 +1,31 @@
+<h2>Scroll Switch</h2>
+<b id="top-switch">Bagian Atas</b>
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="note note-warning">
+			Scroll Switch adalah fitur auto scroll pada terget id tertentu 
+		</div>
+		<button class="btn btn-info scroll-switch" target-scroll="#bottom-switch">Scroll to Bottom</button>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"> class=</span><span class="co">"btn btn-info scroll-switch"</span><span class="cl"> target-scroll=</span><span class="co">"#bottom-switch"</span><span class="cb">&gt;</span>Scroll to Bottom<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span></code></div>
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<b id="bottom-switch">Bagian Bawah</b>
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="note note-warning">
+			Scroll Switch adalah fitur auto scroll pada terget id tertentu 
+		</div>
+		<button class="btn btn-info scroll-switch" target-scroll="#top-switch">Scroll to Top</button>
+	</div>
+</div>
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"> class=</span><span class="co">"btn btn-info scroll-switch"</span><span class="cl"> target-scroll=</span><span class="co">"#top-switch"</span><span class="cb">&gt;</span>Scroll to Top<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span></code></div>

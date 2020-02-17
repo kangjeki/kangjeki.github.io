@@ -1,0 +1,63 @@
+<h2>Alert</h2>
+<div class="row">
+	<div class="col-12">
+		<div class="code-layout">
+			<div class="code-preview">
+				<div class="alert">
+					Standard Alert..
+				</div>
+				<div class="alert alert-primary">
+					Primary Alert..
+				</div>
+				<div class="alert alert-secondary">
+					Secondary Alert..
+				</div>
+				<div class="alert alert-info">
+					Info Alert..
+				</div>
+				<div class="alert alert-success">
+					Success Alert..
+				</div>
+				<div class="alert alert-danger">
+					Danger Alert..
+				</div>
+				<div class="alert alert-warning">
+					Warning Alert..
+				</div>
+				<div class="alert alert-dark">
+					Dark Alert..
+				</div>
+				<div class="alert alert-light">
+					Light Alert..
+				</div>
+			</div>
+		</div>
+		<div class="code-block"><a class="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Standard Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-primary"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Primary Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-secondary"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Secondary Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-info"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Info Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-success"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Success Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-danger"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Danger Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-warning"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Warning Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-dark"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Dark Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+		<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"alert alert-light"</span><span class="cb">&gt;</span>
+		<br>&nbsp;Light Alert..
+		<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>
+	</div>
+</div>

@@ -1,0 +1,232 @@
+<h2>Input</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<input type="text" class="input-control" placeholder="Sample Input..">
+		<small class="input-help">Ini Adalah Contoh..</small>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"> class=</span><span class="co">"input-control"</span><span class="cl"> placeholder=</span><span class="co">"Sample Input.."</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>small</span><span class="cl"> class=</span><span class="co">"input-help"</span><span class="cb">&gt;</span>Ini Adalah Contoh..<span class="cb"><span class="cb">&lt;</span>/small</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<select class="input-control">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>select</span><span class="cl"> class=</span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"1"</span><span class="cb">&gt;</span>1<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"2"</span><span class="cb">&gt;</span>2<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"3"</span><span class="cb">&gt;</span>3<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/select</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="code-layout">
+	<div class="code-preview">
+		<textarea class="input-control" rows="5"></textarea>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>textarea</span><span class="cl"> class=</span><span class="co">"input-control"</span><span class="cl"> rows=</span><span class="co">"5"</span><span class="cb">&gt;</span><span class="cb"><span class="cb">&lt;</span>/textarea</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<h2>Input Control Size</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<input type="text" class="input-control input-control-md" placeholder="Size Midle">
+		<div class="clear"></div>
+		<input type="text" class="input-control input-control-lg" placeholder="Size Large">
+		<div class="clear"></div>
+		<input type="text" class="input-control input-control-xl" placeholder="Size Extra Large">
+	</div>
+</div>
+
+<div class="note note-info">
+	# <b>Size input control</b><br>
+	# midle <b>input-control-md</b><br>
+	# large <b>input-control-lg</b><br>
+	# extra large <b>input-control-xl</b><br>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"text"</span></span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-control input-control-md"</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"text"</span></span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-control input-control-lg"</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"><span class="cl"> type=</span></span><span class="co"><span class="co">"text"</span></span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-control input-control-xl"</span><span class="cb">&gt;</span></code></div>
+
+
+
+<div class="clear"></div>
+<h2>Input Group</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="input-group">
+			<div class="input-prepend">
+				<button class="btn btn-info">Masuk</button>
+			</div>
+			<input type="text" class="input-control">
+			<input type="text" class="input-control">
+			<input type="text" class="input-control">
+			<input type="text" class="input-control">
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-prepend"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Masuk<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="input-group">
+			<input type="text" class="input-control">
+			<div class="input-append">
+				<button class="btn btn-info">Masuk</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-append"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Masuk<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="input-group">
+			<div class="input-prepend">
+				<button class="btn btn-info">Masuk</button>
+			</div>
+			<input type="text" class="input-control">
+			<input type="text" class="input-control">
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-prepend"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Masuk<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="input-group">
+			<input type="text" class="input-control">
+			<input type="text" class="input-control">
+			<div class="input-append">
+				<button class="btn btn-info">Masuk</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-append"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn btn-info"</span><span class="cb">&gt;</span>Masuk<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="input-group">
+			<div class="input-prepend">
+				<button class="btn btn-success">Pilih Salah Satu</button>
+			</div>
+			<select class="input-control">
+				<option value="aku">Aku</option>
+				<option value="kamu">Kamu</option>
+				<option value="dia">Dia</option>
+			</select>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-prepend"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"btn btn-success"</span><span class="cb">&gt;</span>Pilih Salah Satu<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>select</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"aku"</span><span class="cb">&gt;</span>Aku<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"kamu"</span><span class="cb">&gt;</span>Kamu<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"dia"</span><span class="cb">&gt;</span>Dia<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/select</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="input-group">
+			<select class="input-control">
+				<option value="aku">Aku</option>
+				<option value="kamu">Kamu</option>
+				<option value="dia">Dia</option>
+			</select>
+			<div class="input-append">
+				<button class="btn btn-success">Pilih Salah Satu</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>select</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"aku"</span><span class="cb">&gt;</span>Aku<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"kamu"</span><span class="cb">&gt;</span>Kamu<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"dia"</span><span class="cb">&gt;</span>Dia<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/select</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"input-append"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"> class=</span></span><span class="co">"btn btn-success"</span><span class="cb">&gt;</span>Pilih Salah Satu<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>
+
+
+<div class="clear"></div>
+<div class="code-layout">
+	<div class="code-preview">
+		<div class="input-group">
+			<select class="input-control">
+				<option value="aku">Aku</option>
+				<option value="kamu">Kamu</option>
+				<option value="dia">Dia</option>
+			</select>
+			<input type="text" class="input-control">
+			<div class="input-append">
+				<button class="btn btn-danger">Pilih Salah Satu</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-group"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>select</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"aku"</span><span class="cb">&gt;</span>Aku<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"kamu"</span><span class="cb">&gt;</span>Kamu<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>option</span><span class="cl"><span class="cl"> value=</span></span><span class="co">"dia"</span><span class="cb">&gt;</span>Dia<span class="cb"><span class="cb">&lt;</span>/option</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/select</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>input</span><span class="cl"> type=</span><span class="co">"text"</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-control"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>div</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"input-append"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span><span class="co">"btn btn-danger"</span><span class="cb">&gt;</span>Pilih Salah Satu<span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>/div</span><span class="cb">&gt;</span></code></div>

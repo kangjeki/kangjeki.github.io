@@ -1,0 +1,115 @@
+<h2>Tooltips</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn btn-info tooltips" place="top" tips="Tooltips Atas" mode="normal">Tooltips Top</button>
+		<button class="btn btn-info tooltips" place="right" tips="Tooltips Kanan" mode="danger">Tooltips Right</button>
+		<button class="btn btn-info tooltips" place="bottom" tips="Tooltips Bawah" mode="info">Tooltips Bottom</button>
+		<button class="btn btn-info tooltips" place="left" tips="Tooltips Kiri" mode="dark">Tooltips Left</button>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co">"btn btn-info tooltips"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span><span class="co">"top"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span>"Tooltips Atas"<span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span><span class="co">"normal"</span><span class="cb">&gt;</span>Tooltips Top<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co">"btn btn-info tooltips"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span><span class="co">"right"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span>"Tooltips Kanan"<span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span><span class="co">"danger"</span><span class="cb">&gt;</span>Tooltips Right<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co">"btn btn-info tooltips"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span><span class="co">"bottom"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span>"Tooltips Bawah"<span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span><span class="co">"info"</span><span class="cb">&gt;</span>Tooltips Bottom<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co">"btn btn-info tooltips"</span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span><span class="co">"left"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span>"Tooltips Kiri"<span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span><span class="co">"dark"</span><span class="cb">&gt;</span>Tooltips Left<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span><span class="cb">&gt;</span></code></div>
+<div class="row">
+	<div class="col-12">
+		<h3>Penggunaan</h3>
+		<p>
+			-Untuk mengaktifkan tooltip pada element gunakan class <b>'tooltips'</b>;<br>
+			-Untuk Penempatan posisi target tooltip gunakan attribute <b>'place'</b> | ex: place="top". <br>
+			-Gunakan attribute <b>'tips'</b> untuk menyertakan text tips yang ingin dibuat; <br>
+			-pilih varian tooltips dengan mengganti attribute <b>'mode'</b>;
+		</p>
+		<div class="clear"></div>
+		<div class="note note-secondary">
+			# JC_Boster akan mendeteksi class <b>tooltips</b> secara otomatis <br>
+			# Apabila ada class <b>tooltips</b> yang terdeteksi JC Boster akan membaca attribute yang menyertai. <br>
+			# Jika attribute tidak terdeteksi maka otomatis akan diberikan nilai defaul dan mode <b>normal</b>
+		</div>
+	</div>
+</div>
+
+
+<h2>Varian tooltips</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn tooltips" place="right" tips="Tooltips Normal" mode="normal">normal</button>
+		<button class="btn btn-primary tooltips" place="right" tips="Tooltips primary" mode="primary">primary</button>
+		<button class="btn btn-secondary tooltips" place="right" tips="Tooltips secondary" mode="secondary">secondary</button>
+		<button class="btn btn-info tooltips" place="right" tips="Tooltips info" mode="info">info</button>
+		<button class="btn btn-success tooltips" place="right" tips="Tooltips success" mode="success">success</button>
+		<button class="btn btn-warning tooltips" place="right" tips="Tooltips warning" mode="warning">warning</button>
+		<button class="btn btn-danger tooltips" place="right" tips="Tooltips danger" mode="danger">danger</button>
+		<button class="btn btn-dark tooltips" place="right" tips="Tooltips dark" mode="dark">dark</button>
+		<button class="btn btn-light tooltips" place="right" tips="Tooltips light" mode="light">light</button>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips Normal"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"normal"</span><span class="cb">&gt;</span>normal<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-primary tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips primary"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"primary"</span><span class="cb">&gt;</span>primary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-secondary tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips secondary"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"secondary"</span><span class="cb">&gt;</span>secondary<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-info tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips info"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"info"</span><span class="cb">&gt;</span>info<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-success tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips success"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"success"</span><span class="cb">&gt;</span>success<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-warning tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips warning"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"warning"</span><span class="cb">&gt;</span>warning<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-danger tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips danger"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"danger"</span><span class="cb">&gt;</span>danger<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-dark tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips dark"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"dark"</span><span class="cb">&gt;</span>dark<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-light tooltips"</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> place=</span></span></span></span></span></span></span></span></span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"right"</span></span></span></span></span></span></span></span></span><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> tips=</span></span></span></span></span></span></span></span></span>"Tooltips light"<span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"><span class="cl"> mode=</span></span></span></span></span></span></span></span></span><span class="co">"light"</span><span class="cb">&gt;</span>light<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/button</span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>
+
+<style type="text/css">
+
+</style>
+<h2>Tooltips Row Mode</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<button class="btn tooltips-row">
+			<span class="tips-text tips-right">
+				Hallo Kawan Kawan ini Hallo Kawan Kawan ini Hallo Kawan Kawan ini
+			</span>
+			Tips Right
+		</button>
+		<button class="btn tooltips-row">
+			<span class="tips-text tips-top">
+				Hallo Kawan Kawan ini Hallo Kawan Kawan ini Hallo Kawan Kawan ini
+			</span>
+			Tips Top
+		</button>
+		<button class="btn tooltips-row">
+			<span class="tips-text tips-bottom">
+				Hallo Kawan Kawan ini Hallo Kawan Kawan ini Hallo Kawan Kawan ini
+			</span>
+			Tips Bottom
+		</button>
+		<button class="btn tooltips-row">
+			<span class="tips-text tips-left">
+				Hallo Kawan Kawan ini Hallo Kawan Kawan ini Hallo Kawan Kawan ini
+			</span>
+			Tips Left
+		</button>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co"><span class="co">"btn tooltips-row"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"tips-text tips-right"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;text here..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;Tips Right
+<br><span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co"><span class="co">"btn tooltips-row"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"tips-text tips-top"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;text here..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;Tips Top
+<br><span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co"><span class="co">"btn tooltips-row"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"tips-text tips-bottom"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;text here..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;Tips Bottom
+<br><span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span>
+<br><span class="cb"><span class="cb">&lt;</span>button</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co"><span class="co">"btn tooltips-row"</span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>span</span><span class="cl"><span class="cl"><span class="cl"><span class="cl"> class=</span></span></span></span><span class="co">"tips-text tips-left"</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;text here..
+<br>&nbsp;<span class="cb"><span class="cb">&lt;</span>/span</span><span class="cb">&gt;</span>
+<br>&nbsp;Tips Left
+<br><span class="cb"><span class="cb">&lt;</span>/button</span><span class="cb">&gt;</span></code></div>

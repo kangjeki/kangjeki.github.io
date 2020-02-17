@@ -1,0 +1,98 @@
+<style type="text/css">
+	.code-layout .progresbar-md {
+		width: 100%;
+	}
+</style>
+
+<h2>Progresbar</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<lable>progres primary</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-primary">100%</div>
+		</div>
+
+		<lable>progres secondary</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-secondary">100%</div>
+		</div>
+
+		<lable>progres info</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-info">100%</div>
+		</div>
+
+		<lable>progres success</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-success">100%</div>
+		</div>
+
+		<lable>progres danger</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-danger">100%</div>
+		</div>
+
+		<lable>progres warning</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-warning">100%</div>
+		</div>
+
+		<lable>progres dark</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-dark">100%</div>
+		</div>
+
+		<lable>progres light</lable>
+		<div class="progresbar-md">
+			<div class="progreser progresbar-light">100%</div>
+		</div>
+	</div>
+</div>
+
+
+ 
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-primary"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-secondary"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-info"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-success"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-danger"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-warning"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-dark"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co"><span class="co">"progresbar-md"</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">div </span><span class="cl">class=</span><span class="co">"progreser progresbar-light"</span><span class="cb">&gt;</span>100<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/div</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="cb">&gt;</span></code></div>
+
+<br>
+<h2>Prgresbar Varian</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<label>Progresbar Gradient</label>
+		<div class="progresbar-md">
+			<div class="progreser" style="background-image: linear-gradient(90deg, lightgreen, green, darkgreen);">100%</div>
+		</div>
+		<label>Progresbar Large</label>
+		<div class="progresbar-lg">
+			<div class="progreser progresbar-primary" style="width: 50%">50%</div>
+		</div>
+		<label>Progresbar X-Large</label>
+		<div class="progresbar-xl">
+			<div class="progreser progresbar-warning" style="width: 30%">30%</div>
+		</div>			
+	</div>
+</div>
+
+

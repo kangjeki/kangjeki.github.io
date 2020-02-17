@@ -1,0 +1,8 @@
+<h2>Comment Form</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<form action="" method="">
+			<div class="comment-form" class="content-editable" contenteditable="true" style="height: 300px;"><p>text here..</p></div>
+		</form>
+	</div>
+</div>

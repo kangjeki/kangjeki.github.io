@@ -1,0 +1,44 @@
+<h2>Box Dialog</h2>
+
+<h4># Alert Standard</h4>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 20px;">
+		<button class="btn btn-success" onclick="jc_alert('Selamat Anda Menang Undian Banyak..', true);">Preview</button>
+		<button class="btn btn-danger" onclick="jc_alert('Oopss..!! Maaf Terjadi Kesalahan..', false);">Preview</button>
+	</div>
+</div>
+<div class="note note-primary">
+	# Aksess alert standard menggunakan <b>Javascript</b><br>
+	# Aksses perintah dengan <strong>jc_alert('Text Dialog..', Bool);</strong>
+</div>
+<br>
+<p><strong>Contoh: </strong></p>
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-success"</span><span class="cl"><span class="cl"> onclick=</span></span>"jc_alert('Selamat Anda Menang Undian Banyak..', true);"<span class="cb">&gt;</span>Preview<span class="cb">&lt;</span><span class="cb"><span class="cb">/button</span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-danger"</span><span class="cl"><span class="cl"> onclick=</span></span>"jc_alert('Oopss..!! Maaf Terjadi Kesalahan..', false);"<span class="cb">&gt;</span>Preview<span class="cb">&lt;</span><span class="cb"><span class="cb">/button</span></span><span class="cb">&gt;</span></code></div>
+
+<h4># Alert Dialog</h4>
+<div class="code-layout">
+	<div class="code-preview" style="padding: 20px;">
+		<div class="box-dialog" alert="success">
+			<div class="icon-dialog">
+				<i class="fas fa-check"></i>
+			</div>
+			<div class="text-dialog">
+				Selamat Anda Menang Undian Banyak..
+			</div>
+		</div>	
+		<br>
+
+		<button class="btn btn-success" onclick="jc_alertDialog('Selamat Anda Menang Undian Banyak..', true);">Preview</button>
+		<button class="btn btn-danger" onclick="jc_alertDialog('Oopss..!! Maaf Terjadi Kesalahan..', false);">Preview</button>
+	</div>
+</div>
+
+<div class="note note-info">
+	# Aksess alert-dialog menggunakan <b>Javascript</b><br>
+	# Aksses perintah dengan <strong>jc_alertDialog('Text Dialog..', Bool);</strong>
+</div>
+<br>
+<p><strong>Contoh: </strong></p>
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-success"</span><span class="cl"><span class="cl"> onclick=</span></span>"jc_alertDialog('Selamat Anda Menang Undian Banyak..', true);"<span class="cb">&gt;</span>Preview<span class="cb">&lt;</span><span class="cb"><span class="cb">/button</span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">button </span><span class="cl">class=</span><span class="co">"btn btn-danger"</span><span class="cl"><span class="cl"> onclick=</span></span>"jc_alertDialog('Oopss..!! Maaf Terjadi Kesalahan..', false);"<span class="cb">&gt;</span>Preview<span class="cb">&lt;</span><span class="cb"><span class="cb">/button</span></span><span class="cb">&gt;</span></code></div>

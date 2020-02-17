@@ -1,0 +1,164 @@
+<h2 class="scroller-id" id="table">Table</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<table class="table">
+			<tr>
+				<th>No</th>
+				<th>Nama</th>
+				<th>Usia</th>
+				<th>Alamat</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">table </span><span class="cl">class=</span><span class="co">"table"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>No<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Nama<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Usia<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Alamat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>1<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Andre Laksono<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>27<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Jakarta Barat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>2<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Andre Laksono<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>27<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Jakarta Barat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">/table</span><span class="cb">&gt;</span></code></div>
+
+<h2 class="scroller-id" id="table-border">Table Border</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<table class="table table-border">
+			<tr>
+				<th>No</th>
+				<th>Nama</th>
+				<th>Usia</th>
+				<th>Alamat</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">table </span><span class="cl">class=</span><span class="co">"table table-border"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>No<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Nama<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Usia<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Alamat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>1<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Andre Laksono<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>27<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Jakarta Barat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>2<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Andre Laksono<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>27<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Jakarta Barat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">/table</span><span class="cb">&gt;</span></code></div>
+
+<h2 class="scroller-id" id="table-striped">Table Striped</h2>
+<div class="code-layout">
+	<div class="code-preview">
+		<table class="table table-striped">
+			<tr>
+				<th>No</th>
+				<th>Nama</th>
+				<th>Usia</th>
+				<th>Alamat</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Andre Laksono</td>
+				<td>27</td>
+				<td>Jakarta Barat</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="code-block"><a class="code-copy" id="code-copy">Copy</a><code><span class="cb">&lt;</span><span class="cb">table </span><span class="cl">class=</span><span class="co">"table table-striped"</span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>No<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Nama<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Usia<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">th</span><span class="cb">&gt;</span>Alamat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb">/th</span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>1<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Andre Laksono<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>27<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Jakarta Barat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb">tr</span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>2<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Andre Laksono<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>27<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;&nbsp;<span class="cb">&lt;</span><span class="cb">td</span><span class="cb">&gt;</span>Jakarta Barat<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb"><span class="cb">/td</span></span></span></span></span></span></span></span><span class="cb">&gt;</span>
+<br>&nbsp;<span class="cb">&lt;</span><span class="cb"><span class="cb"><span class="cb">/tr</span></span></span><span class="cb">&gt;</span>
+<br><span class="cb">&lt;</span><span class="cb">/table</span><span class="cb">&gt;</span></code></div>
